@@ -7,7 +7,7 @@ import base64
 
 # --- Κωδικός Πρόσβασης ---
 SECURITY_CODE = "katanomi2025"
-    def password_gate():
+  def password_gate():
     if "access_granted" not in st.session_state:
         st.session_state.access_granted = False
     if not st.session_state.access_granted:
